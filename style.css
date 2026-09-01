@@ -14,11 +14,13 @@ body{
 
 nav{
     display: flex;
+
     justify-content: space-between;
 
     align-items: center;
 
     padding: 20px 80px;
+
 }
 
 .logo{
@@ -29,7 +31,7 @@ nav{
 
 }
 
-nav ul {
+nav ul{
     display: flex;
     list-style: none;
 }
@@ -91,7 +93,7 @@ nav ul li a:hover{
     max-width: 500px;
 }
 
-.hero buttons{
+.hero-buttons{
     display: flex;
     gap: 25px;
     margin-top: 35px;
@@ -240,7 +242,7 @@ nav ul li a:hover{
 
 }
 
-.project card {
+.project-card {
     background-color: #1e293b;
     padding: 30px;
     margin: 20px;
