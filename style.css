@@ -14,13 +14,11 @@ body{
 
 nav{
     display: flex;
-
     justify-content: space-between;
 
     align-items: center;
 
     padding: 20px 80px;
-
 }
 
 .logo{
@@ -31,7 +29,7 @@ nav{
 
 }
 
-nav ul{
+nav ul {
     display: flex;
     list-style: none;
 }
@@ -93,7 +91,7 @@ nav ul li a:hover{
     max-width: 500px;
 }
 
-.hero-buttons{
+.hero buttons{
     display: flex;
     gap: 25px;
     margin-top: 35px;
@@ -218,3 +216,202 @@ nav ul li a:hover{
     transform: translateY(-3px);
 }
 
+.projects{
+
+    padding: 100px 80px;
+    text-align:center;
+
+}
+
+.projects h2{
+
+    font-size: 50px;
+    color:#38bdf8;
+    text-align:center;
+    margin-bottom: 50px;
+
+}
+
+.projects-container{
+
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+
+}
+
+.project card {
+    background-color: #1e293b;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    width: 300px;
+    min-height: 230px;
+}
+
+.projects-card a{
+
+    display:inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #38bdf8;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.project-card a:hover{
+
+    background-color: #0ea5e9;
+    transform:translateY(-3px);
+}
+
+.project-card{
+
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover{
+
+    transform: translateY(-8px);
+}
+
+.project-card h3{
+
+     color: white;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.project-card p{
+
+    color: #94a3b8;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.contact{
+
+    padding: 100px 80px;
+    text-align:center;
+}
+
+.contact h2{
+
+    font-size: 45px;
+    color: #38bdf8;
+    margin-bottom: 15px;
+}
+.contact p{
+
+    color: #94a3b8;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+
+.contact form{
+
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea{
+
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background-color: #1e293b;
+    color: white;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.contact textarea{
+    height: 100px;
+    resize: vertical;
+}
+
+.contact button {
+    padding: 12px 25px;
+    background-color: #38bdf8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #0ea5e9;
+    transform: translateY(-3px);
+}
+
+footer{
+
+    padding: 25px;
+    text-align: center;
+    background-color: #0f172a;
+    color: #94a3b8;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+
+    nav{
+
+        padding: 20px;
+
+    }
+
+    .hero{
+
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 20px;
+    
+}
+
+.projects-container{
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card{
+
+    width: 100%;
+    max-width: 400px;
+}
+
+nav ul{
+
+    gap: 15px;
+
+}
+
+nav{
+
+    padding: 20px;
+
+}
+
+.hero-buttons{
+
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.her-image img{
+
+    width: 300px;
+    height: 300px;
+}    
+
+}
